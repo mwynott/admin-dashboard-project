@@ -7,6 +7,138 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+        <wrapper>
+            <nav class="sidebar">
+                <div class="logo">Dashboard</div>
+                <ul class="nav-links-main">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Tasks</a></li>
+                    <li><a href="#">Communities</a></li>
+                </ul>
+                <ul class="nav-links-options">
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </nav>
+            <header>
+                <nav class="search-bar">
+                    <input type="text" placeholder="">
+                </nav>
+                <div class="notification">
+                    <span class="icon">🔔</span>
+                    <span class="badge"><img src="#" alt="User Profile"></span>
+                    <span class="username">${userName}</span>
+                </div>
+                <div class="user-profile">
+                    <img src="#" alt="User Profile">
+                    <span>Hi there,<br>${userName} (${userHandle})</span>
+                </div>
+                <div class="button-group">
+                    <button class="btn">New</button>
+                    <button class="btn">Upload</button>
+                    <button class="btn">Share</button>
+                </div>
+            </header>
+            <div class="main">
+                <div class="main-sections">
+                    <div class="projects">
+                        <p>Your Projects</p>
+                        <div class="project-cards">
+                            <div class="card">
+                                <h3>Super Cool Project</h3>
+                                <p>Filler text goes here.</p>
+                                <div class="card-buttons">
+                                    <button class="btn">Edit</button>
+                                    <button class="btn">Delete</button>
+                                    <button class="btn">Share</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <h3>Less Cool Project</h3>
+                                <p>Filler text goes here.</p>
+                                <div class="card-buttons">
+                                    <button class="btn">Edit</button>
+                                    <button class="btn">Delete</button>
+                                    <button class="btn">Share</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <h3>Impossible App</h3>
+                                <p>Filler text goes here.</p>
+                                <div class="card-buttons">
+                                    <button class="btn">Edit</button>
+                                    <button class="btn">Delete</button>
+                                    <button class="btn">Share</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <h3>Easy Peasy App</h3>
+                                <p>Filler text goes here.</p>
+                                <div class="card-buttons">
+                                    <button class="btn">Edit</button>
+                                    <button class="btn">Delete</button>
+                                    <button class="btn">Share</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <h3>Ad Blocker</h3>
+                                <p>Filler text goes here.</p>
+                                <div class="card-buttons">
+                                    <button class="btn">Edit</button>
+                                    <button class="btn">Delete</button>
+                                    <button class="btn">Share</button>
+                                </div>
+                            </div> 
+                            <div class="card">
+                                <h3>Money Maker</h3>
+                                <p>Filler text goes here.</p>
+                                <div class="card-buttons">
+                                    <button class="btn">Edit</button>
+                                    <button class="btn">Delete</button>
+                                    <button class="btn">Share</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="announcements">
+                        <p>Announcements</p>
+                        <div class="site maintenance">
+                            <h3>Site Maintenance</h3>
+                            <p>Fill text about site maintenance here.</p>
+                        </div>
+                        <div class="community">
+                            <h3>Community Share Day</h3>
+                            <p>Fill text about Community Share Day here.</p>
+                        </div>
+                        <div class="privacy-update">
+                            <h3>Updated Privacy Policy</h3>
+                            <p>Fill text about privacy update here.</p>
+                        </div>
+                </div>
+                    <div class="trending">
+                        <p>Trending</p>
+                        <div class="trending-list">
+                            <div class="trending-user">
+                                <p>${user-badge} ${userHandle}<br>World Peace Builder</p>
+                            </div>
+                            <div class="trending-user">
+                                <p>${user-badge} ${userHandle}<br>Super Cool Project</p>
+                            </div>
+                            <div class="trending-user">
+                                <p>${user-badge} ${userHandle}<br>Life Changing App</p>
+                            </div>
+                            <div class="trending-user">
+                                <p>${user-badge} ${userHandle}<br>No Traffic Maker</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </wrapper>
 </body>
 </html>
